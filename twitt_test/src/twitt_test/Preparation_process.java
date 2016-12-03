@@ -68,7 +68,8 @@ public class Preparation_process  {
 					temp = temp.substring(0, temp.length()-1);
 				//temp = temp+".";
 				
-				//if(temp.length() >= 30)
+				
+				//if(temp.length() >= 30)                                    
 				//System.out.println(temp);
 				if(temp.length() >= 30)
 				send_back.add(temp);
@@ -96,7 +97,7 @@ public class Preparation_process  {
 				 for (String stem : stems) {
 					 temp_input += stem+" ";
 			       }
-				 //temp_input += token+" ";
+				///temp_input += token+" ";
 			}
 			 if(Objects.equals(temp_input.substring(temp_input.length()-1,temp_input.length())," "))
 				 temp_input = temp_input.substring(0, temp_input.length()-1);
